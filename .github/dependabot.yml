@@ -8,6 +8,8 @@ updates:
   - package-ecosystem: npm
     directory: "/javascript"
     open-pull-requests-limit: 0
+    labels:
+      - "security"
     schedule:
       interval: "weekly"
   - package-ecosystem: bundler
